@@ -8,6 +8,7 @@ export const metadata: Metadata = {
   description: "Shorten links and track clicks.",
   other: {
     "google-adsense-account": "ca-pub-2609478919998844",
+    "google-site-verification": "rnKTe6M-RJ7Yr1oZQK6uVepMPadwKIcW5j7wu96ig_g",
   },
 };
 
