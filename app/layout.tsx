@@ -1,6 +1,7 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import TopNav from "@/components/TopNav";
+import Script from "next/script";
 
 export const metadata: Metadata = {
   title: "LinkShrink",
@@ -11,6 +12,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <body className="min-h-screen bg-gradient-to-b from-slate-50 to-white text-slate-900">
+        <Script
+  async
+  strategy="afterInteractive"
+  src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2609478919999844"
+  crossOrigin="anonymous"
+/>
         <TopNav />
         {children}
 
